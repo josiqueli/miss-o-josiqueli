@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: ["alternativa1", "alternativa2"]
     },
     { //segundo objeto da lista de perguntas
-        enunciado: "pergunta1",
+        enunciado: "pergunta2",
         altenativas: ["alternativa1", "alternativa2"]
     }
 ];
