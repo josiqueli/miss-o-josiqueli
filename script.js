@@ -72,3 +72,17 @@ function mostraAlternativas () {
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
+
+function respostaSelecionada (opcaoSelecionada){
+    const afirmacao = opcaoSelecionada.afirmacao;
+    historiaFinal=+ afirmacao + "";
+    atual++
+    mostraPergunta();
+}
+
+funtion mostraResultado(){
+    caixaPerguntas.textContent= "Resumindo...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+}
+    mostraPergunta ();
