@@ -68,19 +68,19 @@ function mostraAlternativas () {
     for (const alternativa of perguntaAtual.alternatvas){
         const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
-        botaoAlternativa.addEventListener ("click", ()=> respostaSelecionada (altenativa));
+        botaoAlternativa.addEventListener ("click", ()=> respostaSelecionada(altenativa));
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
 
 function respostaSelecionada (opcaoSelecionada){
     const afirmacao = opcaoSelecionada.afirmacao;
-    historiaFinal=+ afirmacao + "";
+    historiaFinal=+ afirmacao + " ";
     atual++
     mostraPergunta();
 }
 
-funtion mostraResultado(){
+function mostraResultado(){
     caixaPerguntas.textContent= "Resumindo...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
