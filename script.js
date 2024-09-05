@@ -28,20 +28,20 @@ const perguntas = [
             },
             {
                 texto: "Viajar entre dimensões",
-                afirmacao: "afirmacao4"
+                afirmacao: "Viajar entre dimensões abriria portas para mundos paralelos, onde regras diferentes de realidade poderiam oferecer experiências totalmente novas e emocionantes."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Se houvesse um portal para um universo alternativo, qual versão de você mesmo você gostaria e encontrar?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
+                texto: "Uma versão mais ousada e aventureira.",
                 afirmacao:"afirmacao5"
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
+                texto: ".",
                 afirmacao:"afirmacao6"
             }
         ]
