@@ -38,11 +38,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uma versão mais ousada e aventureira.",
-                afirmacao:"afirmacao5"
+                afirmacao:"Encontrar uma versão mais ousada e aventureira de si mesmo traria inspiração para tomar decisões mais arrojadas e viver de forma mais intensa."
             },
             {
-                texto: ".",
-                afirmacao:"afirmacao6"
+                texto: "uma versão mais calma e reflexiva.",
+                afirmacao:"Encontrar uma versão mais calma e reflexiva permitiria aprender com a serenidade e o equilíbrio, desenvolvendo uma maior paz interior."
             }
         ]
     }
