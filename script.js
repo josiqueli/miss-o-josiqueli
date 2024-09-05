@@ -6,28 +6,28 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Se você pudesse viajar no tempo, qual época você escolheria visitar?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Passado",
+                afirmacao: "Viajar ao passado permitiria testemunhar eventos históricos e descobrir segredos que moldaram o mundo como conhecemos."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "Futuro",
+                afirmacao: "Viajar para o futuro permitiria explorar tecnologias avançadas e ver como a humanidade evoluiu, descobrindo inovações que poderiam transformar a vida."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Em uma realidade alternativa, qual habilidade especial você preferiria ter?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Controlar o tempo",
+                afirmacao: "Controlar o tempo permitiria pausar momentos importantes, acelerar situações monótonas e até revisitar acontecimentos para mudá-los"
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
+                texto: "Viajar entre dimensões",
                 afirmacao: "afirmacao4"
             }
            
